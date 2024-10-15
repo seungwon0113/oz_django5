@@ -11,12 +11,15 @@ django = "^5.1.2"
 # ^ : 하위 호환을 지키는 선에서 최신버전을 써라
 # 5(major).1.2
 mypy = "^1.11.2"
+pymysql = "^1.1.1"
+cryptography = "^43.0.1"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.10.0"
 isort = "^5.13.2"
 mypy = "^1.11.2"
 django-stubs = "^5.1.0"
+types-pymysql = "^1.1.0.20240524"
 
 [build-system]
 requires = ["poetry-core"]
