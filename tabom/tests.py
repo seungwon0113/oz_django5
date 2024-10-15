@@ -1,9 +1,10 @@
 from django.test import TestCase
 
+
 # Create your tests here.
 class MyTest(TestCase):
 
-    def test_simple(self)->None:
+    def test_simple(self) -> None:
         """
         Given: 게시글이 주어졌을 때 ( 테스트에 필요한 재료준비)
         When: 그 게시글에 좋아요를 하면 ( 실제로 테스트 하고자 하는 대상을 호출)
@@ -16,7 +17,7 @@ class MyTest(TestCase):
         b = 3
 
         # When
-        result = a+b
+        result = a + b
 
         # Then
         self.assertEqual(result, 4)
